@@ -10,4 +10,14 @@
 // * Use an if..else block to determine which message to display
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+fn check(a: bool) {
+    if a == true {
+        println!("This is true")
+    } else {
+        println!("This is false")
+    }
+}
+
+fn main() {
+    check(false)
+}
